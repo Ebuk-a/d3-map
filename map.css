@@ -1,0 +1,127 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: #010101;
+	height: 100%;
+	color: #fff;
+}
+
+.main-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.data {
+	cursor: pointer;
+}
+
+.country {
+	fill: rgb(60, 41, 32);
+	stroke: rgba(17, 178, 210, 0.74);
+	stroke-width: 0.5;
+}
+
+.towns {
+	fill: #e4f4f7;
+	opacity: 0.7;
+}
+
+.towns-modify {
+	fill: rgb(210, 7, 44);
+	opacity: 1;
+}
+
+.text {
+	fill: rgba(255, 255, 255, 0.74);
+	font-size: 0.875rem;
+}
+
+.tooltip-container {
+}
+
+.tooltip-content {
+	display: flex;
+}
+
+.tooltip-bg {
+	width: 200px;
+	height: 90px;
+	fill: #fff;
+}
+
+.town-tooltip,
+.county-tooltip,
+.population-tooltip {
+	font-weight: 700;
+}
+
+.town-tooltip {
+	fill: rgb(2, 116, 237);
+}
+
+.county-tooltip {
+	fill: rgb(2, 116, 237);
+}
+
+.population-tooltip {
+	fill: rgb(2, 116, 237);
+}
+
+.svg-container {
+	order: 2;
+}
+
+.side-container {
+	width: 100%;
+	padding: 3rem 1rem;
+	text-align: center;
+}
+
+.header {
+	margin-bottom: 4rem;
+	margin-top: 4rem;
+}
+
+.city-number {
+	margin: 1rem 0;
+}
+
+.btn {
+	appearance: none;
+	cursor: pointer;
+	font-weight: 700;
+	padding: 2px 24px;
+	height: 48px;
+	letter-spacing: 0.25px;
+	border-radius: 24px;
+	color: #3c4043;
+	background-color: #fff;
+	margin-bottom: 3rem;
+}
+
+.btn:hover {
+	background: #f6f9fe;
+	color: #174ea6;
+}
+
+/*Range Reset*/
+input[type="range"] {
+	-webkit-appearance: none;
+	appearance: none;
+	background: transparent;
+	cursor: pointer;
+	width: 100%;
+}
+
+/* slider track */
+input[type="range"]::-webkit-slider-runnable-track {
+	background-color: #053a5f;
+	border-radius: 0.5rem;
+	height: 0.5rem;
+}
+
